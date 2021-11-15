@@ -1,0 +1,23 @@
+
+    /* First paragraph */
+li:nth-of-type(1) {
+    font-weight: bold; color: blue;
+  }
+li:nth-of-type(2n) {
+    color: grey;
+}
+li:nth-of-type(3) {
+    font-style: italic; color: green;font-size:8px;
+  }
+  li:nth-of-type(4n) {
+    color: orange;text-align: right; font-weight:bold;
+}
+li:nth-of-type(5) {
+    text-align: justify; color: pink;font-family: tahoma;
+  }
+  li:nth-of-type(6n) {
+    color: purple; text-decoration: underline; font-family: helvetica, sans-serif, roboto;
+}
+li:nth-of-type(7) {
+    font-weight: bold; color: black;background-color: yellow; font-family: comic sans ms, comic sans, cursive; line-height: 25px;
+  }
