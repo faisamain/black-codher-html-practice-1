@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+body {
+    background-color:#E0FFFF;
+    color: #191970;
+}
+p {font-size: 20px;
+
+}
+ol {font-size: 20px
+}
+h1 {
+    font-family: 'Dancing Script', cursive;
+}
+/* For mobile phones*/
+h1, h2 {
+    font-size: 50px;
+}
+/* For desktop*/
+@media (min-width: 600px)
+h1, h2, h3 {
+    font-size: 70px;
+}
+
+.image {display: flex; justify-content: center;
+align-items: center;
+}
+/*.container {display: flex;
+}*/
+
+.heading {display: flex; justify-content: center;
+    align-items: center;}
+
